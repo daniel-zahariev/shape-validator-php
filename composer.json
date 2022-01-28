@@ -1,0 +1,27 @@
+{
+    "name": "danielz/shape-validator-php",
+    "description": "Simple (array) shape validator.",
+    "type": "library",
+    "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "Daniel Zahariev",
+            "email": "daniel.zahariev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanielZ\\ShapeValidator\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "pest"
+    }
+}
